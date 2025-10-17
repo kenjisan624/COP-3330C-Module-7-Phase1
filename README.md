@@ -16,7 +16,10 @@ This console based a will allow user to use Create, Remove. Update, Delete hero 
 
 I have collected this records with +42 data of the current season as of October 2025 for our use.
 ** you can also load your personal file, just need to type the absolute path!
-<img src="images/console.png" width="150" >
+
+
+<img src="images/console.png" width="750" >
+
 
 
 This application is going to evolve to have a Graphic Interface + Database integration! 
@@ -32,20 +35,26 @@ It will come different version for these updates.
 Followed UML diagram designed for our project!
 
 This console based app basically work with the below 3 files:
+
+
 <img src="images/folder_icon.png" width="150" >
 **MarvelRivalApp.java** 
 which contain the main method which will start the program
 
 
 
-<img src="images/folder_icon.png" width="150" >**Hero.java** 
+
+<img src="images/folder_icon.png" width="150" >
+**Hero.java** 
 which contains the formatting of how the user requested to be the input
 example:
 IdentityHeroID-heroName-healthPoint-movementSPeed-ultDamage-heroRole-winRate
 018-Jeff the Land Shark-250-6-4500-Strategist-50.60%
 
 
-<img src="images/folder_icon.png" width="150" >**NavigationMenu.java** 
+
+<img src="images/folder_icon.png" width="150" >
+**NavigationMenu.java** 
 that holds most of the methods:
 +Start()
 +DisplayNavigation()
@@ -65,7 +74,7 @@ These methods have been tested with a sample data stored under Season1WinRate.cs
 The UML model is as follow:
 Where MarvelRivalsApp creates NavigationMenu and this Uses & Stores heroRecords.
 
-<img src="images/uml.png" width="150" >
+<img src="images/uml.png" width="900" >
 **Tools used:**
 - Java language
 - IDE: JetBrain IntelliJ IDE
