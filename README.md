@@ -38,14 +38,18 @@ This console based app basically work with the below 3 files:
 
 
 <img src="images/folder_icon.png" width="150" >
+
 **MarvelRivalApp.java** 
+
 which contain the main method which will start the program
 
 
 
 
 <img src="images/folder_icon.png" width="150" >
+
 **Hero.java** 
+
 which contains the formatting of how the user requested to be the input
 example:
 IdentityHeroID-heroName-healthPoint-movementSPeed-ultDamage-heroRole-winRate
@@ -54,7 +58,9 @@ IdentityHeroID-heroName-healthPoint-movementSPeed-ultDamage-heroRole-winRate
 
 
 <img src="images/folder_icon.png" width="150" >
+
 **NavigationMenu.java** 
+
 that holds most of the methods:
 +Start()
 +DisplayNavigation()
